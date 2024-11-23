@@ -8,5 +8,5 @@ cc_library(
     name = "magic_enum",
     hdrs = glob(["include/magic_enum/*.hpp"]),
     defines = ["MAGIC_ENUM_NO_EXCEPTION"],
-    includes = ["include/magic_enum"],
+    includes = ["include"],
 )
